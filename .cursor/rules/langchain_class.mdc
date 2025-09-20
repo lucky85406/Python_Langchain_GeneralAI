@@ -1,0 +1,17 @@
+---
+description: "langchain課程"
+globs:
+  - ./Lession_four/**
+alwaysApply: true
+---
+## ai注意事項
+ - 這些資料是上課用，回覆請簡單易懂
+ - 我的課程是langchain
+
+## codebase:
+  - python
+  - langchain
+  - jupyter_notebook
+  - markdown
+
+## 課程目的:學習langchain相關應用

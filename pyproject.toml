@@ -1,0 +1,28 @@
+[project]
+name = "python-langchain-generalai"
+version = "0.1.0"
+description = "General AI playground with LangChain"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "gradio",
+    "ipywidgets",
+    "langchain",
+    "langchain-anthropic",
+    "langchain-community",
+    "langchain-core",
+    "langchain-google-genai",
+    "langchain-openai",
+    "langchain-ollama",
+    "langchainhub",
+    "ollama",
+    "python-dotenv",
+    "requests>=2.32.5",
+    "charset-normalizer>=3.4.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+]
