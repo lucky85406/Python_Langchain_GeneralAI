@@ -18,3 +18,6 @@
 - **uv venv**
 - **接入本地ollama及雲端gemini ai**
 - **使用Gradio工具建立畫面**
+## 2025/09/27
+- **cursor 如何建立debug**
+- **gradio playground 套件測試使用**

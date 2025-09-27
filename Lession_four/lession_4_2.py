@@ -8,7 +8,7 @@ load_dotenv()
 
 
 # 使用最原始的呼叫方式：直接以字串 prompt 送到 Ollama
-model = ChatOllama(model="llama3.2:latest", base_url="http://localhost:11434")
+model = ChatOllama(model="gemma3:270m", base_url="http://localhost:11434")
 
 
 def answer(prompt: str) -> str:
@@ -40,4 +40,6 @@ iface = gr.Interface(
 )
 
 if __name__ == "__main__":
-    iface.launch(server_name="0.0.0.0", server_port=7860)
+    # Windows default ip 127.0.0.1 / Mac 0.0.0.0
+    iface.launch(server_name="127.0.0.1", server_port=7860)
+    
