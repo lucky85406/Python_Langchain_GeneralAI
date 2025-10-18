@@ -21,3 +21,5 @@
 ## 2025/09/27
 - **cursor 如何建立debug**
 - **gradio playground 套件測試使用**
+## 2025/10/18
+- **chain 相關使用方式**
