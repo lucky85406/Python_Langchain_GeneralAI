@@ -1,5 +1,7 @@
+from modelFun.printModel import print_by_status as pm
+
 def main():
-    print("Hello from python-langchain-generalai!")
+    pm("Hello from python-langchain-generalai!","info")
 
 
 if __name__ == "__main__":
